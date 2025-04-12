@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    namespace EPAM_CAMPUSS
-    {
+    
         public abstract class SequenceGenerator<T> : ISequenceGenerator<T> 
         {
             public T Previous { get; protected set; }
@@ -25,5 +24,5 @@ namespace EPAM_CAMPUSS
 
             public abstract T GetNext();
         }
-    }
+    
 }
