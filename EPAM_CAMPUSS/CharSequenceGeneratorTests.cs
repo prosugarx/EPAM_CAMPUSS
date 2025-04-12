@@ -11,7 +11,7 @@ namespace EPAM_CAMPUSS
     {
         public CharSequenceGeneratorTests(char first, char second) : base(first, second) { }
 
-        public override char Next => throw new NotImplementedException();
+        public override char Next => Current;
 
         public override char GetNext()
         {

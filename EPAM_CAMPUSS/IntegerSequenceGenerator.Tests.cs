@@ -13,7 +13,7 @@ namespace EPAM_CAMPUSS
         {
             public IntegerSequenceGenerator(int first, int second) : base(first, second) { }
 
-        public override int Next => throw new NotImplementedException();
+        public override int Next => Current;
 
         public override int GetNext()
             {

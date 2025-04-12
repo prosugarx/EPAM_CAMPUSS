@@ -16,7 +16,7 @@ namespace EPAM_CAMPUSS
             _generateNext = generateNext;
         }
 
-        public override T Next => throw new NotImplementedException();
+        public override T Next => Current;
 
         public override T GetNext()
         {

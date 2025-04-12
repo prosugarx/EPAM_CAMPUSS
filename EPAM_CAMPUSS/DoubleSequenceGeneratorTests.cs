@@ -11,7 +11,7 @@ namespace EPAM_CAMPUSS
     {
         public DoubleSequenceGeneratorTests(double first, double second) : base(first, second) { }
 
-        public override double Next => throw new NotImplementedException();
+        public override double Next => Current;
 
         public override double GetNext()
         {
