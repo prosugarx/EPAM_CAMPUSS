@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public class FibonacciSequenceGenerator : SequenceGeneratorTests<int>
+    public class FibonacciSequenceGenerator : SequenceGenerator<int>
     {
         public FibonacciSequenceGenerator(int first, int second) : base(first, second) { }
 

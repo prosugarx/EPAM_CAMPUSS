@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public class DelegateSequenceGeneratorTests<T> : SequenceGeneratorTests<T>
+    public class DelegateSequenceGenerator<T> : SequenceGenerator<T>
     {
         private readonly Func<T, T, T> _generateNext;
 
-        public DelegateSequenceGeneratorTests(T first, T second, Func<T, T, T> generateNext) : base(first, second)
+        public DelegateSequenceGenerator(T first, T second, Func<T, T, T> generateNext) : base(first, second)
         {
             _generateNext = generateNext;
         }

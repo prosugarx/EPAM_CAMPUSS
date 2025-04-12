@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public class DoubleSequenceGeneratorTests : SequenceGeneratorTests<double>
+    public class DoubleSequenceGenerator : SequenceGenerator<double>
     {
-        public DoubleSequenceGeneratorTests(double first, double second) : base(first, second) { }
+        public DoubleSequenceGenerator(double first, double second) : base(first, second) { }
 
         public override double Next => Current;
 

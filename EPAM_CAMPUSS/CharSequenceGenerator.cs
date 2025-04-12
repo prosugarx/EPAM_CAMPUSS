@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public class CharSequenceGeneratorTests : SequenceGeneratorTests<char>
+    public class CharSequenceGenerator : SequenceGenerator<char>
     {
-        public CharSequenceGeneratorTests(char first, char second) : base(first, second) { }
+        public CharSequenceGenerator(char first, char second) : base(first, second) { }
 
         public override char Next => Current;
 

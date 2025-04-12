@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace EPAM_CAMPUSS
 {
     
-        public class IntegerSequenceGenerator : SequenceGeneratorTests<int>
+        public class IntegerSequenceGenerator : SequenceGenerator<int>
         {
             public IntegerSequenceGenerator(int first, int second) : base(first, second) { }
 

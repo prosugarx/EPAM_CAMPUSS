@@ -43,15 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CharSequenceGeneratorTests.cs" />
-    <Compile Include="DelegateSequenceGeneratorTests.cs" />
-    <Compile Include="DoubleSequenceGeneratorTests.cs" />
+    <Compile Include="CharSequenceGenerator.cs" />
+    <Compile Include="DelegateSequenceGenerator.cs" />
+    <Compile Include="DoubleSequenceGenerator.cs" />
     <Compile Include="FibonacciSequenceGenerator.cs" />
-    <Compile Include="IntegerSequenceGenerator.Tests.cs" />
-    <Compile Include="ISequenceGeneratorTests.cs" />
+    <Compile Include="IntegerSequenceGenerator.cs" />
+    <Compile Include="ISequenceGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SequenceGeneratorTests.cs" />
+    <Compile Include="SequenceGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
