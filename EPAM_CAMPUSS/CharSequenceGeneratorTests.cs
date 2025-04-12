@@ -1,4 +1,4 @@
-﻿using EPAM_CAMPUSS.EPAM_CAMPUSS;
+﻿using EPAM_CAMPUSS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public class CharSequenceGenerator : SequenceGenerator<char>
+    public class CharSequenceGeneratorTests : SequenceGeneratorTests<char>
     {
-        public CharSequenceGenerator(char first, char second) : base(first, second) { }
+        public CharSequenceGeneratorTests(char first, char second) : base(first, second) { }
 
         public override char Next => throw new NotImplementedException();
 

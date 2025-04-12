@@ -1,4 +1,4 @@
-﻿using EPAM_CAMPUSS.EPAM_CAMPUSS;
+﻿using EPAM_CAMPUSS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace EPAM_CAMPUSS
 {
     
-        public class IntegerSequenceGenerator : SequenceGenerator<int>
+        public class IntegerSequenceGenerator : SequenceGeneratorTests<int>
         {
             public IntegerSequenceGenerator(int first, int second) : base(first, second) { }
 

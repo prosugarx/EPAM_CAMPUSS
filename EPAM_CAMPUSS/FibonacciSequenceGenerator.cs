@@ -1,4 +1,4 @@
-﻿using EPAM_CAMPUSS.EPAM_CAMPUSS;
+﻿using EPAM_CAMPUSS;
 using System;
 using System.Collections.Generic;
 using System.Linq;

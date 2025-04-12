@@ -1,4 +1,4 @@
-﻿using EPAM_CAMPUSS.EPAM_CAMPUSS;
+﻿using EPAM_CAMPUSS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public class DelegateSequenceGenerator<T> : SequenceGenerator<T>
+    public class DelegateSequenceGeneratorTests<T> : SequenceGeneratorTests<T>
     {
         private readonly Func<T, T, T> _generateNext;
 
-        public DelegateSequenceGenerator(T first, T second, Func<T, T, T> generateNext) : base(first, second)
+        public DelegateSequenceGeneratorTests(T first, T second, Func<T, T, T> generateNext) : base(first, second)
         {
             _generateNext = generateNext;
         }

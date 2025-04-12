@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace EPAM_CAMPUSS
 {
     
-        public abstract class SequenceGenerator<T> : ISequenceGenerator<T> 
+        public abstract class SequenceGeneratorTests<T> : ISequenceGeneratorTests<T> 
         {
             public T Previous { get; protected set; }
             public T Current { get; protected set; }
@@ -15,7 +15,7 @@ namespace EPAM_CAMPUSS
 
             public int Count { get; protected set; }
 
-            public SequenceGenerator(T previous, T current)
+            public SequenceGeneratorTests(T previous, T current)
             {
                 Previous = previous;
                 Current = current;

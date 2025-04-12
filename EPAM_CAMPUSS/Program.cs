@@ -27,7 +27,7 @@ namespace EPAM_CAMPUSS
              }
 
             // Double Sequence Generator Class
-            var doubleGenerator = new DoubleSequenceGenerator(0.0, 1.0);
+            var doubleGenerator = new DoubleSequenceGeneratorTests(0.0, 1.0);
              Console.WriteLine("\nDouble Sequence Generator Class:");
             for (int i = 0; i < 10; i++) 
             {
@@ -37,7 +37,7 @@ namespace EPAM_CAMPUSS
 
 
             // Char Sequence Generator Class
-            var charGenerator = new CharSequenceGenerator('A', 'A');
+            var charGenerator = new CharSequenceGeneratorTests('A', 'A');
                 Console.WriteLine("Previous: " + charGenerator.Previous); // 'A'
                 Console.WriteLine("Current: " + charGenerator.Current);  // 'B'
                 Console.WriteLine("Char Sequence Generator Class:");
@@ -47,7 +47,7 @@ namespace EPAM_CAMPUSS
                 }
 
             // Generic Sequence Generator Class With Delegate
-            var delegateGenerator = new DelegateSequenceGenerator<int>(1, 2, (prev, curr) => 6 * curr - 8 * prev);
+            var delegateGenerator = new DelegateSequenceGeneratorTests<int>(1, 2, (prev, curr) => 6 * curr - 8 * prev);
                 Console.WriteLine("\nGeneric Sequence Generator Class With Delegate:");
                 for (int i = 0; i < 10; i++) 
                 {

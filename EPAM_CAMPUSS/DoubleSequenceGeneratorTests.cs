@@ -1,4 +1,4 @@
-﻿using EPAM_CAMPUSS.EPAM_CAMPUSS;
+﻿using EPAM_CAMPUSS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public class DoubleSequenceGenerator : SequenceGenerator<double>
+    public class DoubleSequenceGeneratorTests : SequenceGeneratorTests<double>
     {
-        public DoubleSequenceGenerator(double first, double second) : base(first, second) { }
+        public DoubleSequenceGeneratorTests(double first, double second) : base(first, second) { }
 
         public override double Next => throw new NotImplementedException();
 

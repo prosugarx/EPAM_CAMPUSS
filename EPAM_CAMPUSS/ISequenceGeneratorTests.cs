@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EPAM_CAMPUSS
 {
-    public interface ISequenceGenerator<T>
+    public interface ISequenceGeneratorTests<T>
     {
             T Previous { get; }
             T Current { get; }
