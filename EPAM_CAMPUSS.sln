@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM_CAMPUSS", "EPAM_CAMPUSS\EPAM_CAMPUSS.csproj", "{31918871-CDDF-4F68-AB10-4474036280A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM_CAMPUSS.Tests", "EPAM_CAMPUSS.Tests\EPAM_CAMPUSS.Tests.csproj", "{C8B9D9A1-FBAF-4698-AF05-9DA56B85A312}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{31918871-CDDF-4F68-AB10-4474036280A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31918871-CDDF-4F68-AB10-4474036280A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31918871-CDDF-4F68-AB10-4474036280A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B9D9A1-FBAF-4698-AF05-9DA56B85A312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B9D9A1-FBAF-4698-AF05-9DA56B85A312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B9D9A1-FBAF-4698-AF05-9DA56B85A312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B9D9A1-FBAF-4698-AF05-9DA56B85A312}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
